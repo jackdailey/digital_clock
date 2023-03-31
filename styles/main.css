@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: black;
+}
+header {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+div {
+    display: flex;
+    justify-content: center;
+    color: white;  
+    padding: 175px 0;
+    size: 150%;
+}
+footer {
+    /* clear: both; */
+    background-color: grey;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    font-size: 75%;
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+}
